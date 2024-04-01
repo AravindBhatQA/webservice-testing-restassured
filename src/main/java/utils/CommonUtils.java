@@ -33,7 +33,7 @@ public class CommonUtils {
     public static String generateIncorrectToken() throws IOException {
         String incorrectToken;
         String token = getConfigProperties().getProperty("token");
-        while((incorrectToken = faker.name().username()).equals(token)){};
+        while((incorrectToken = faker.name().username()).equals(token)){}
         return  incorrectToken;
     }
     public static String getToken() throws IOException {

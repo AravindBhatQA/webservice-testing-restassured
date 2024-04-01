@@ -3,7 +3,6 @@ package methods.Booker;
 import POJO.Booker.CreateBookingPayload;
 import endPointURIs.EndPoint;
 import io.restassured.response.Response;
-import utils.CommonUtils;
 
 import java.io.IOException;
 
